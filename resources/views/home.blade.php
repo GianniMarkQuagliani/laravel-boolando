@@ -1,5 +1,7 @@
-<body>
-    <main>
-        <h1>Home</h1>
-    </main>
-</body>
+@extends('layouts.main')
+
+@section('content')
+    <h1 class="text-3xl font-bold underline">
+        Hello World!
+    </h1>
+@endsection
