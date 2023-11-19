@@ -1,0 +1,13 @@
+@use './variabiles' as *;
+header .topbar {
+    background-color: $header-bg-color;
+    height: $header-height;
+    font-weight: $header-font-weight;
+    margin-bottom: $header-margin-bottom;
+}
+  
+header .topbar .container {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}

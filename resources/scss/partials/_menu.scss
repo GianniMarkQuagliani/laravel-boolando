@@ -1,0 +1,21 @@
+@use './variabiles' as *;
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    margin: $menu-item-margin;
+}
+  
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: $menu-item-font-weight;
+}
+  
+.col {
+    width: $col-width;
+    margin: 50px 10px;
+}

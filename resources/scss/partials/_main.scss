@@ -1,0 +1,90 @@
+@use './variabiles' as *;
+
+.container-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: start;
+    width: 80%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+  
+.image1,
+.image2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    backface-visibility: hidden;
+}
+  
+.image2 {
+    opacity: 0;
+    display: none;
+}
+  
+.box:hover .image1 {
+    display: none;
+    opacity: 0.3;
+}
+  
+.box:hover .image2 {
+    display: block;
+    opacity: 1;
+}
+  
+.box {
+    height: 500px;
+    position: relative;
+}
+  
+.image1,
+.image2 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+  
+.img-txt strong {
+    color: red;
+}
+  
+.img-txt span {
+    text-decoration: line-through;
+}
+  
+.discount {
+    width: $discount-width;
+    background-color: $discount-bg-color;
+    left: $discount-left;
+}
+  
+.discount,
+.box-sostenibilità {
+    display: inline-block;
+    line-height: 26px;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    top: 85%;
+}
+  
+.box-sostenibilità {
+    background-color: green;
+    left: $box-sostenibilita-left;
+    width: $box-sostenibilita-width;
+}
+  
+.hearts {
+    display: inline-block;
+    padding: 10px 10px;
+    top: 2%;
+    right: $hearts-right;
+    position: absolute;
+    background-color: #fff;
+}
+  
+.box:hover {
+    color: red;
+}
