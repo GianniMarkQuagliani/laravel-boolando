@@ -1,4 +1,3 @@
-@use './variabiles' as *;
 
 footer {
     background-color: $footer-bg-color;
@@ -6,39 +5,39 @@ footer {
     color: $footer-color;
     margin-top: $footer-margin-top;
 }
-  
+
 footer .row {
     justify-content: space-between;
 }
-  
+
 .copyright ul {
     list-style: none;
     display: flex;
 }
-  
+
 .copyright ul li a {
     text-decoration: none;
     color: white;
     font-size: $copyright-font-size;
 }
-  
+
 .copyright li {
     padding: 0 5px;
 }
-  
+
 .copyright {
     width: $copyright-width;
     font-size: $copyright-font-size;
     padding: $copyright-padding;
 }
-  
+
 .social {
     width: $social-width;
     font-size: $social-font-size;
     text-align: $social-text-align;
     padding: $social-padding;
 }
-  
+
 .social a i {
     margin: $social-a-i-margin;
     color: #fff;
