@@ -3,10 +3,10 @@
         <div class="container row">
             <nav class="menu">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Prodotti</a></li>
-                    <li><a href="#">Chi Siamo</a></li>
-                    <li><a href="#">Contatti</a></li>
+                    <li><a href="{{ route('home') }}">Home</a></li>
+                    <li><a href="{{ route('products') }}">Prodotti</a></li>
+                    <li><a href="{{ route('about') }}">Chi Siamo</a></li>
+                    <li><a href="{{ route('contacts') }}">Contatti</a></li>
                 </ul>
             </nav>
             <div class="logo">

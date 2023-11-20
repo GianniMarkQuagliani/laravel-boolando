@@ -5,3 +5,5 @@
 - Inizio a creare il Menu, faccendo copia e incolla del vecchio progetto e poi includendo nel main
 - Faccio lo stesso procedimaneto con il Footer
 - Inizio a creare la mia Home
+- Faccio le altre pagine così inizio a navigarlo, preparando prima i balde e poi le rotte
+- Creo un file products.php e copio gli array
