@@ -4,3 +4,4 @@
 - Ho fatto un refactoring
 - Inizio a creare il Menu, faccendo copia e incolla del vecchio progetto e poi includendo nel main
 - Faccio lo stesso procedimaneto con il Footer
+- Inizio a creare la mia Home
