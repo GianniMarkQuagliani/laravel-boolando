@@ -27,8 +27,8 @@ Route::get('/contatti', function () {
 
 Route::get('/prodotti', function () {
 
+    // carico da config/products.php l'array di prodotti da mostrare
     $products = config('products');
-
 
     return view('products', compact('products'));
 })->name('products');

@@ -1,12 +1,19 @@
+@php
+    $main_menu = config('menues.main_menu');
+@endphp
+
 <header>
     <div class="topbar">
         <div class="container row">
             <nav class="menu">
                 <ul>
-                    <li><a href="{{ route('home') }}">Home</a></li>
-                    <li><a href="{{ route('products') }}">Prodotti</a></li>
+                    @foreach ($main_menu as $item)
+                        <li><a href="{{ route($item['name'] ) }}">{{ $item['text'] }}</a></li>
+                    @endforeach
+                    {{-- <li><a href="{{ route('home') }}">Home</a></li>
+                    <li><a href="{{ route('product') }}">Prodotti</a></li>
                     <li><a href="{{ route('about') }}">Chi Siamo</a></li>
-                    <li><a href="{{ route('contacts') }}">Contatti</a></li>
+                    <li><a href="{{ route('contacts') }}">Contatti</a></li> --}}
                 </ul>
             </nav>
             <div class="logo">
