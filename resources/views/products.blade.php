@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-
+@dump($products)
     <section>
       <div class="container row">
         <h1>Prodotti</h1>

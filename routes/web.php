@@ -26,5 +26,9 @@ Route::get('/contatti', function () {
 })->name('contacts');
 
 Route::get('/prodotti', function () {
-    return view('products');
+
+    $products = config('products');
+
+
+    return view('products', compact('products'));
 })->name('products');
