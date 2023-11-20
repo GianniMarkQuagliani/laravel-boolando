@@ -8,3 +8,4 @@
 - Faccio le altre pagine così inizio a navigarlo, preparando prima i balde e poi le rotte
 - Creo un file products.php che era un pò il nostro data e copio gli array
 - Carico da config l'array da mostrare e poi creo un dupm su products per vedere se funziona tutto
+- vado a stampare tutte le card
